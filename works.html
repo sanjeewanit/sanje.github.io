@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta content="telephone=no" name="format-detection"/>
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="Sanjee Portfolio" name="author"/>
+    <meta content="Creative portfolio showcasing house plans" name="description"/>
+    <title>Sanjee Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Sanjee</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Back</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div class="container text-center text-white">
+        <h1 class="display-4">Welcome to Sanjee's Portfolio</h1>
+        <p class="lead">Explore my creative house plans and architectural designs</p>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section py-5">
+    <div class="container text-center">
+        <h2 class="section-title">Featured House Plans</h2>
+        <div class="row">
+		
+            <!-- House Plan 1 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="images/house/1.png" alt="House 1 Image 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#galleryModal1">
+                    <h3>House Plan 1</h3>
+                    <p>This design combines functionality, sustainability, and modern technology to create an efficient and eco-friendly urban space.</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal1">View Gallery</button>
+                </div>
+            </div>
+
+            <!-- Modal for House Plan 1 -->
+            <div class="modal fade" id="galleryModal1" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="galleryModalLabel">House Plan 1 Gallery</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="gallery">
+                                <img src="images/house/1.png" alt="House 1 Image 1" class="img-fluid">
+                                <img src="images/house/2.jpeg" alt="House 1 Image 2" class="img-fluid">
+                                <img src="images/house/3.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/4.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/5.jpeg" alt="House 1 Image 3" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- House Plan 2 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="images/house/6.png" alt="House 2 Image 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#galleryModal2">
+                    <h3>House Plan 2</h3>
+                    <p>A cozy family home with efficient space use and comfort.</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal2">View Gallery</button>
+                </div>
+            </div>
+
+            <!-- Modal for House Plan 2 -->
+            <div class="modal fade" id="galleryModal2" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="galleryModalLabel">House Plan 2 Gallery</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="gallery">
+                               
+                                <img src="images/house/6.png" alt="House 1 Image 2" class="img-fluid">
+                                <img src="images/house/7.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/8.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/9.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/10.jpeg" alt="House 1 Image 1" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- House Plan 3 -->
+            <div class="col-md-4">
+                <div class="portfolio-item">
+                    <img src="images/house/12.png" alt="House 3 Image 1" class="img-fluid" data-bs-toggle="modal" data-bs-target="#galleryModal3">
+                    <h3>House Plan 3</h3>
+                    <p>A contemporary house with sustainable features and modern design.</p>
+                    <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#galleryModal3">View Gallery</button>
+                </div>
+            </div>
+
+            <!-- Modal for House Plan 3 -->
+            <div class="modal fade" id="galleryModal3" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="galleryModalLabel">House Plan 3 Gallery</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="gallery">
+                                <img src="images/house/12.png" alt="House 1 Image 2" class="img-fluid">
+                                <img src="images/house/13.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/14.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/15.jpeg" alt="House 1 Image 3" class="img-fluid">
+								<img src="images/house/16.jpeg" alt="House 1 Image 1" class="img-fluid">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<footer id="contact" class="footer py-4 bg-dark text-white text-center">
+    <p>&copy; 2024 Sanjee. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS (required for modals) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
